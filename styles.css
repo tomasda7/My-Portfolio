@@ -1,16 +1,13 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
 }
 
-header {
-  background-color:#3C3A39;
+.toolbar {
+  background-color: #3c3a39;
   position: absolute;
   width: 100%;
   height: 92px;
-  left: 0px;
-  top: 0px;
-
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -18,131 +15,158 @@ header {
 }
 
 #logo-placeholder {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
 }
 
 #logo {
-    color: #FFFFFF;
-    font-family: 'Roboto';
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hamburger {
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    margin: 38px 14px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 38px 14px;
 }
 
 .hamburger span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #ffff;
-    margin-bottom: 5px;
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #ffff;
+  margin-bottom: 5px;
 }
 
-
 .home {
-    background-color: #1C1A19;
-    position: absolute;
-    width: 100%;
-    height: 90%;
-    left: 0px;
-    top: 92px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    column-gap: 10%;
+  background-color: #1c1a19;
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  left: 0%;
+  top: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  column-gap: 10%;
 }
 
 .primary-text {
-    /* background-color: lightblue; */
-    height: 20%;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 25%;
-
+  height: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25%;
 }
 
 .primary-text h1 {
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    margin: 0;
-
-    color: #FF6B00;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  margin: 0;
+  color: #ff6b00;
 }
 
 .supporting-text {
-    /* background-color: lightslategray; */
-    height: 10%;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 5%;
-
+  height: 10%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 .supporting-text h2 {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-
-  color: #FFF5E1;
+  color: #fff5e1;
 }
 
 .description {
-  /* background-color: lightcoral; */
-  height: 30%;
+  height: 25%;
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
 }
 
 .description p {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .social-media {
-    /* background-color:cadetblue; */
-    height: 10%;
-    width: 55%;
-    margin-left: 10%;
-    margin-top: 5%;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0;
+  height: 10%;
+  width: 55%;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
 }
-
 
 .social-media img {
   left: 0.04%;
   right: 0.03%;
   top: 0.02%;
   bottom: 0%;
-
-  display: block;
+  display: flex;
 }
 
 .vector {
   position: absolute;
-  left: 65.74%;
-  right: -30.09%;
-  top: 50.3%;
-  bottom: -11.63%;
+  left: 65%;
+  right: -30%;
+  top: 50%;
+  bottom: -11%;
+}
+
+@media (min-width: 375px) {
+
+    .vector {
+        left: 66%;
+    }
+
+    .primary-text {
+        margin-top: 15%;
+    }
+}
+
+@media (min-height: 767px) and (min-width: 767px) {
+
+  .home {
+    height: 95%;
+  }
+
+  .primary-text {
+      margin-top: 15%;
+    }
+
+  .description {
+      height: 15%;
+    }
+
+  .vector {
+      left: 82%;
+    }
+}
+
+@media (min-width: 540px) {
+
+    .vector {
+        left: 75%;
+    }
+
+    .primary-text {
+        margin-top: 15%;
+    }
 }
