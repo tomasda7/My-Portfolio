@@ -131,42 +131,39 @@ body {
 }
 
 @media (min-width: 375px) {
+  .vector {
+    left: 66%;
+  }
 
-    .vector {
-        left: 66%;
-    }
-
-    .primary-text {
-        margin-top: 15%;
-    }
+  .primary-text {
+    margin-top: 15%;
+  }
 }
 
 @media (min-height: 767px) and (min-width: 767px) {
-
   .home {
     height: 95%;
   }
 
   .primary-text {
-      margin-top: 15%;
-    }
+    margin-top: 15%;
+  }
 
   .description {
-      height: 15%;
-    }
+    height: 15%;
+  }
 
   .vector {
-      left: 82%;
-    }
+    left: 82%;
+  }
 }
 
 @media (min-width: 540px) {
+  .vector {
+    left: 75%;
+  }
 
-    .vector {
-        left: 75%;
-    }
-
-    .primary-text {
-        margin-top: 15%;
-    }
+  .primary-text {
+    margin-top: 15%;
+  }
 }
