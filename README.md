@@ -51,8 +51,10 @@
 ### Key Features <a name="key-features"></a>
 
 
-- Added index.html file.
-- Added index.css file.
+- Added Header.
+- Added Main page.
+- Added Works section.
+- Addec About me section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
